@@ -11,8 +11,9 @@ sys.path.append(path_face + "\\manager\\face_recognition")
 from main import main
 
 class Command(BaseCommand):
-    num = 0
+    
     def handle(self, *args, **options):
+        num = 0
         try:
             while True:
                 num = num + 1
